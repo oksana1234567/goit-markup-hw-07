@@ -1,2 +1,2 @@
-# goit-markup-hw-07
-ДЗ№7
+# home-assignment-2
+home-assignment-2
