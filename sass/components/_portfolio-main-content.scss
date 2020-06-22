@@ -1,0 +1,153 @@
+.button-flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  border-top: 1px solid #ececec;
+}
+
+.button-flex .button-element + .button-element {
+  margin-left: 7px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.examples {
+  display: block;
+}
+
+.button-element-button {
+  background: $background-color-grey;
+  border-radius: 4px;
+  border: transparent;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  @extend %font;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  transition-property: color, background-color;
+  transition-duration: $duration;
+  transition-timing-function: $cubic;
+
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    color: #ffff;
+    cursor: pointer;
+  }
+}
+
+.second-header {
+  @extend %font;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: $color-black;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding: 0px;
+  margin-left: 24px;
+}
+
+.filtrs {
+  @extend %font;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: $color-grey;
+  margin-left: 24px;
+}
+
+.desc-for-header {
+  @extend %font;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: $color-white;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+
+.projects-element {
+  margin-left: 30px;
+  margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  width: 370px;
+  height: 404px;
+
+  &:nth-child(3n + 1) {
+    margin-left: 0px;
+  }
+
+  &:nth-child(-n + 3) {
+    margin-top: 0px;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      0px 1px 1px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.slide {
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 0;
+
+    @extend %font;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: $color-white;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    transition-property: opacity, transform;
+    transition-duration: $duration;
+    transition-timing-function: $cubic;
+
+    transform: translateY(100%);
+  }
+}
+
+.slide:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+  cursor: pointer;
+}

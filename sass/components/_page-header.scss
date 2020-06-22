@@ -9,8 +9,7 @@
 }
 
 %logo-text-common {
-  font-family: $font-logo;
-  font-style: $font-style;
+  @extend %font;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -34,8 +33,7 @@
 
 .main-navigation li a {
   color: $color-black;
-  font-family: $font-main;
-  font-style: $font-style;
+  @extend %font;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -117,8 +115,7 @@
 
 .mail li a {
   color: $color-grey;
-  font-family: $font-main;
-  font-style: $font-style;
+  @extend %font;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

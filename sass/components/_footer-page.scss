@@ -71,8 +71,7 @@
 }
 
 %adress-mail-footer-common {
-  font-family: $font-main;
-  font-style: $font-style;
+  @extend %font;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -103,8 +102,7 @@
 
 .join {
   color: $color-white;
-  font-family: $font-main;
-  font-style: $font-style;
+  @extend %font;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -114,8 +112,7 @@
 }
 
 .developed {
-  font-family: $font-main;
-  font-style: $font-style;
+  @extend %font;
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
@@ -131,8 +128,7 @@
 
 .sub-header {
   color: $color-white;
-  font-family: $font-main;
-  font-style: $font-style;
+  @extend %font;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -167,8 +163,7 @@
   padding-left: 28px;
   padding-right: 28px;
 
-  font-family: $font-main;
-  font-style: $font-style;
+  @extend %font;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -197,8 +192,7 @@
 }
 
 ::-webkit-input-placeholder {
-  font-family: $font-main;
-  font-style: $font-style;
+  @extend %font;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;

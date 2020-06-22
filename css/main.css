@@ -1,3 +1,9 @@
+@charset "UTF-8";
+.accent-text, .regular-text, .main-navigation li a, .mail li a, .hero, .order-service, .benefits-head, .benefits-descr, .head-2-descr, .work-head, .name, .job, .adress-footer, .mail-footer, .number-footer, .join, .developed, .sub-header, .submit-footer, ::-webkit-input-placeholder, .modal-slogan, .form-label, .form-label2, .form-label3, .contract, .confirm, .submit-modal, .button-element-button, .second-header, .filtrs, .desc-for-header, .slide::after {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -45,8 +51,6 @@ li {
 }
 
 .accent-text, .regular-text {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -70,8 +74,6 @@ li {
 
 .main-navigation li a {
   color: #212121;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -160,8 +162,6 @@ li {
 
 .mail li a {
   color: #757575;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -198,8 +198,6 @@ li {
 
 .hero {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -234,8 +232,6 @@ li {
 .order-service {
   color: #ffffff;
   background-color: #2196f3;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -259,8 +255,6 @@ li {
 
 .benefits-head {
   color: #212121;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -325,8 +319,6 @@ li {
 
 .head-2-descr {
   color: #212121;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -347,8 +339,6 @@ li {
 .work-head {
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -412,8 +402,6 @@ li {
 
 .name {
   color: #212121;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -425,8 +413,6 @@ li {
 
 .job {
   color: #757575;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -647,8 +633,6 @@ li {
 }
 
 .adress-footer, .mail-footer, .number-footer {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -677,8 +661,6 @@ li {
 
 .join {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -688,8 +670,6 @@ li {
 }
 
 .developed {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
@@ -706,8 +686,6 @@ li {
 
 .sub-header {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -743,8 +721,6 @@ li {
   padding-bottom: 10px;
   padding-left: 28px;
   padding-right: 28px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -774,8 +750,6 @@ li {
 }
 
 ::-webkit-input-placeholder {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -808,8 +782,6 @@ li {
 }
 
 .modal-slogan {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
@@ -837,8 +809,6 @@ li {
 
 .form-label, .form-label2 {
   position: absolute;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
@@ -866,8 +836,6 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
@@ -977,8 +945,6 @@ li {
 }
 
 .contract, .confirm {
-  font-family: "Roboto", sans-serif;
-  font-style: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -998,8 +964,6 @@ li {
 }
 
 .submit-modal {
-  font-family: "Roboto", sans-serif;
-  font-style: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -1048,5 +1012,173 @@ li {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.button-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  border-top: 1px solid #ececec;
+}
+
+.button-flex .button-element + .button-element {
+  margin-left: 7px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.examples {
+  display: block;
+}
+
+.button-element-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: transparent;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-element-button:hover, .button-element-button:focus {
+  background-color: #2196f3;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.second-header {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding: 0px;
+  margin-left: 24px;
+}
+
+.filtrs {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-left: 24px;
+}
+
+.desc-for-header {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 94px;
+}
+
+.projects-element {
+  margin-left: 30px;
+  margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  width: 370px;
+  height: 404px;
+}
+
+.projects-element:nth-child(3n + 1) {
+  margin-left: 0px;
+}
+
+.projects-element:nth-child(-n + 3) {
+  margin-top: 0px;
+}
+
+.projects-element:hover, .projects-element:focus {
+  -webkit-box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+          box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide::after {
+  content: "Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  background-color: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.slide:hover::after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

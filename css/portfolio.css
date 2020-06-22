@@ -225,34 +225,6 @@ li {
   padding-left: 0px;
 }
 
-.button-element {
-  /* font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-
-  width: auto;
-  height: 26px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 20px;
-  padding-left: 20px;
-  */
-  /* 
-  background: #f5f4fa;
-  border-radius: 4px; */
-}
-
-/* .button-element-button:hover,
-.button-element-button:focus {
-  color: #2196f3;
-} */
-
 .button-element-button:hover,
 .button-element-button:focus {
   background-color: #2196f3;
