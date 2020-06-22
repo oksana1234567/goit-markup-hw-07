@@ -49,16 +49,16 @@
   transition-duration: $duration;
   transition-timing-function: $cubic;
   position: relative;
+
+  .main-navigation & + & {
+    margin-left: 50px;
+  }
 }
 
 .nav1-url {
   &:hover,
   &:focus {
     color: $color-hover;
-  }
-
-  .main-navigation & + & {
-    margin-left: 50px;
   }
 }
 

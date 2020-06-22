@@ -1,0 +1,250 @@
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  transition: opacity $duration $cubic;
+}
+.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.7);
+}
+
+.modal-slogan {
+  font-family: $font-main;
+  font-style: $font-style;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: $color-black;
+  margin-bottom: 30px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 528px;
+  min-height: 581px;
+  background-color: $color-white;
+  padding: 40px;
+}
+
+.form-field {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+%form-label-common {
+  position: absolute;
+  font-family: $font-main;
+  font-style: $font-style;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+
+  color: $color-grey;
+  transition: transform $duration $cubic, color $duration $cubic;
+}
+
+.form-label {
+  @extend %form-label-common;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+}
+
+.form-label2 {
+  @extend %form-label-common;
+  top: 12px;
+  left: 16px;
+}
+
+.form-label3 {
+  display: flex;
+  font-family: $font-main;
+  font-style: $font-style;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  color: $color-grey;
+  align-items: center;
+}
+
+.form-input {
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+  padding-left: 40px;
+  font: inherit;
+  border-radius: 3px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.form-input:focus {
+  border-radius: 3px;
+  border: 1px solid $color-hover;
+  outline: none;
+}
+
+.comment2:focus + .form-label2,
+.comment2:not(:placeholder-shown) + .form-label2 {
+  color: $color-hover;
+  transform: translate(-15px, -30px);
+}
+
+.comment2:focus,
+.comment2:not(:placeholder-shown) {
+  border-color: $color-hover;
+  outline: none;
+}
+
+.comment2 {
+  width: 100%;
+  resize: none;
+  padding: 12px 0 0 16px;
+  white-space: nowrap;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: transform $duration $cubic, color $duration $cubic;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  color: $color-hover;
+  transform: translate(-23px, -40px);
+}
+
+.icon-modal {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+
+  transform: translateY(-50%);
+
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.form-input:focus ~ .icon-modal {
+  fill: $color-hover;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0px;
+  padding: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.checkbox:checked + .icon-checkbox {
+  background-color: $color-hover;
+  background-image: url(../svg/icon-check.svg);
+  background-size: cover;
+  border-radius: 2px;
+  border-color: $color-hover;
+}
+.icon-checkbox {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  margin-right: 8px;
+
+  border: 2px solid $color-black;
+  background-color: $color-white;
+  transition: $duration $cubic;
+}
+
+%contract-confirm-common {
+  font-family: $font-main;
+  font-style: $font-logo;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  display: block;
+  margin-left: 5px;
+  text-align: right;
+}
+
+.contract {
+  @extend %contract-confirm-common;
+  text-decoration: underline;
+  color: #2196f3;
+}
+
+.confirm {
+  @extend %contract-confirm-common;
+  color: #757575;
+}
+
+.submit-modal {
+  font-family: $font-main;
+  font-style: $font-logo;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: $color-white;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+}
+
+.modal-button {
+  margin-top: 31px;
+  text-align: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.icon-close-button {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.icon-close {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
