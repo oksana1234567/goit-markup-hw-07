@@ -47,23 +47,16 @@
   }
 }
 
-%logo-footer-common {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+.logotype2 {
+  display: block;
+  padding-bottom: 20px;
 }
 
-.logo2 {
+.regular-text2 {
+  @include logotype-mix();
+  font-family: $font-logo;
+  font-style: $font-style;
   color: $color-white;
-  @extend %logo-footer-common;
-}
-
-.accent2 {
-  color: $color-hover;
-  @extend %logo-footer-common;
 }
 
 .footer-class {
@@ -80,7 +73,6 @@
 
 .adress-footer {
   color: $color-white;
-  margin-top: 10px;
   @extend %adress-mail-footer-common;
 }
 .mail-footer {

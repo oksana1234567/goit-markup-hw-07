@@ -8,8 +8,7 @@
   padding-bottom: 25px;
 }
 
-%logo-text-common {
-  @extend %font;
+@mixin logotype-mix() {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -17,13 +16,17 @@
 }
 
 .accent-text {
-  @extend %logo-text-common;
-  color: #2196f3;
+  @include logotype-mix();
+  font-family: $font-logo;
+  font-style: $font-style;
+  color: $color-hover;
 }
 
 .regular-text {
-  @extend %logo-text-common;
-  color: #212121;
+  @include logotype-mix();
+  font-family: $font-logo;
+  font-style: $font-style;
+  color: $color-black;
 }
 
 .main-navigation {

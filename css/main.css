@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.accent-text, .regular-text, .main-navigation li a, .mail li a, .hero, .order-service, .benefits-head, .benefits-descr, .head-2-descr, .work-head, .name, .job, .adress-footer, .mail-footer, .number-footer, .join, .developed, .sub-header, .submit-footer, ::-webkit-input-placeholder, .modal-slogan, .form-label, .form-label2, .form-label3, .contract, .confirm, .submit-modal, .button-element-button, .second-header, .filtrs, .desc-for-header, .slide::after {
+.main-navigation li a, .mail li a, .hero, .order-service, .benefits-head, .benefits-descr, .head-2-descr, .work-head, .name, .job, .adress-footer, .mail-footer, .number-footer, .join, .developed, .sub-header, .submit-footer, ::-webkit-input-placeholder, .modal-slogan, .form-label, .form-label2, .form-label3, .contract, .confirm, .submit-modal, .button-element-button, .second-header, .filtrs, .desc-for-header, .slide::after {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
@@ -50,18 +50,23 @@ li {
   padding-bottom: 25px;
 }
 
-.accent-text, .regular-text {
+.accent-text {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.accent-text {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   color: #2196f3;
 }
 
 .regular-text {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   color: #212121;
 }
 
@@ -611,21 +616,19 @@ li {
   background-color: #2196f3;
 }
 
-.logo2, .accent2 {
-  font-family: Raleway;
-  font-style: normal;
+.logotype2 {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.regular-text2 {
   font-weight: bold;
-  font-size: 22px;
-  line-height: 1.18;
+  font-size: 26px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.logo2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   color: #ffffff;
-}
-
-.accent2 {
-  color: #2196f3;
 }
 
 .footer-class {
@@ -641,7 +644,6 @@ li {
 
 .adress-footer {
   color: #ffffff;
-  margin-top: 10px;
 }
 
 .mail-footer {
